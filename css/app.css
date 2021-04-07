@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    background: #eec;
+    }
+    
+    .container {
+    margin: auto;
+    width: 70%;
+    }
+    .form-container {
+    background: #fff;
+    padding: 10px;
+    border: 2px solid teal;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px #eee;
+    margin-bottom: 10px;
+    }
+    input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    }
+    input:focus {
+    border-bottom: 1px solid red;
+    background: white;
+    }
+    #selectId{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    .form-container button {
+    width: 100%;
+    padding: 10px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background: #0bbbf1;
+    text-transform: uppercase;
+    color: #fff;
+    }
+    #showhideId{
+        width:45px ;
+        height: 45px;
+        font-size: 25px;
+        border: none;
+        border-radius: 50%;
+        outline: none;
+        cursor: pointer;
+        background:#0bbbf1;
+        
+        color: white;
+    }
+    .card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    }
+    
+    .delete {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    background: red;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    }
+    .group {
+    display: flex;
+    justify-content: space-between;
+    }
+    .group input {
+    width: 49%;
+    }
+    .small-g {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 49%;
+    }
+    .small-g input {
+    width: 100%;
+    }
+    
+    .small-g label {
+    font-size: 14px;
+    opacity: 0.6;
+    }
+    .form-container{
+        display:none;
+    }
+    

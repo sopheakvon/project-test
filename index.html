@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booker</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="buttonContainer">
+            <div>
+                <button id="showhideId">+</button>
+            </div>
+        </div>
+        <div class="form-container">
+            <form>
+                <div class="group">
+                    <input type="text" id="bookId" placeholder="Book title ..." />
+                    <input type="text" id="authorId" placeholder="Author name ..." />
+                </div>
+                <div>
+                    <input type="number" id="priceId" placeholder="Price ..." />
+                </div>
+                <div class="group">
+                    <div class="small-g">
+                        <label for="startId">Published Date:</label>
+                        <input type="date" id="startId" />
+                    </div>
+                    <div class="small-g">
+                        <label for="startId">Purchase Date:</label>
+                        <input type="date" id="endId" />
+                    </div>
+                </div>
+                <div>
+                   <select name="select" id="selectId">
+                       <option value="cambodiahistory">Cambodia History</option>
+                       <option value="tomtav">TomTav</option>
+                       <option value="angkorvat">Angkorvat</option>
+
+                   </select>
+                </div>
+                <div>
+                    
+                    <button id="createId">Create</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="search">
+            <input type="text" id="searchId" placeholder="search book..." />
+        </div>
+        <div class="card-container"></div>
+    </div>
+</body>
+
+</html>
